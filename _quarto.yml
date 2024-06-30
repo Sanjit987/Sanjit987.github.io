@@ -3,18 +3,31 @@ project:
   output-dir: docs
 
 website:
-  title: "sanjit987.github.io"
+  page-navigation: true
+  title: "Sanjeet"
+
+  page-footer:
+    left: "&copy; Copyright 2022, Author"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
 
+      - href: projects/index.qmd
+        text: Projects
+
+      - href: about.qmd
+        text: About
+    
+      - href: CV.qmd
+        text: CV
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
 
-editor: visual
+
 

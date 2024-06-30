@@ -1,11 +1,22 @@
 ---
-title: "sanjit987.github.io"
+title: "About me"
+image: sanjit_photo.jpg
+about:
+  id: hero-heading
+  template: solana
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/SanjitThapa
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sanjit-singh-thapa-6896291b9/
+    - icon: github
+      text: Github
+      href: https://github.com/Sanjit987
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+::: {#hero-heading}
+I am aspiring economist.
+:::
