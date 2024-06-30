@@ -4,7 +4,7 @@ image: sanjit_photo.jpg
 about:
   id: hero-heading
   template: solana
-  image-shape: rounded
+  image-shape: round
   links:
     - icon: twitter
       text: Twitter
